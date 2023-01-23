@@ -1,0 +1,17 @@
+{
+  "name": "cyclr_api_test",
+  "version": "1.0.0",
+  "description": "Cyclr API Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
+  "author": "Cyclr",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "*",
+    "dotenv": "^16.0.1",
+    "mocha": "*",
+    "supertest": "*"
+  }
+}
